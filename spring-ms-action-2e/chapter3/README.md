@@ -1,11 +1,10 @@
-# HATEOAS is not commonly used
-# Actuator is commonly used, and its attributes are in the application.properties file.
-# Actuator requires more steps for security purpose
-# GetMapping
+`# HATEOAS is not commonly used
+### Actuator is commonly used, and its attributes are in the application.properties file.
+### Actuator requires more steps for security purpose
+### GetMapping
 GET http://localhost:8080/v1/organization/{organizationId}/license/{licenseId}
 Example: GET http://localhost:8080/v1/organization/123/license/456
-
-# PostMapping
+### PostMapping
 POST http://localhost:8080/v1/organization/{organizationId}/license
 Example: POST http://localhost:8080/v1/organization/123/license
 Content-Type: application/json
@@ -17,7 +16,7 @@ Accept-Language: en
 "organizationId": "123"
 }
 
-# PutMapping
+### PutMapping
 PUT http://localhost:8080/v1/organization/{organizationId}/license
 Example: PUT http://localhost:8080/v1/organization/123/license
 Content-Type: application/json
@@ -28,6 +27,6 @@ Content-Type: application/json
 "organizationId": "123"
 }
 
-# DeleteMapping
+// DeleteMapping
 DELETE http://localhost:8080/v1/organization/{organizationId}/license/{licenseId}
 Example: DELETE http://localhost:8080/v1/organization/123/license/456
