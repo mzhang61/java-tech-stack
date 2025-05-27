@@ -1,4 +1,4 @@
-`# HATEOAS is not commonly used
+### HATEOAS is not commonly used
 ### Actuator is commonly used, and its attributes are in the application.properties file.
 ### Actuator requires more steps for security purpose
 ### GetMapping
